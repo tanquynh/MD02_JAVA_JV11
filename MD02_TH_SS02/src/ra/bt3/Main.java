@@ -12,7 +12,7 @@ public class Main {
         }
     }
 //    Hàm kiểm tra số nguyên tố
-//    + nếu số < 2 => không phải là số nguyên tố => true
+//    + nếu số < 2 => không phải là số nguyên tố => false
 //    + nếu số = 2 => là số nguyên tố => true
 //    + nếu số = 3 => là số nguyên tố => true
 //    + nếu số >=4 & chia hết cho 1 số trong khoảng từ 2 đến căn bậc hai của số đó => là hợp số => false
