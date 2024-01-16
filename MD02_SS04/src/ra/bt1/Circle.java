@@ -1,6 +1,6 @@
 package ra.bt1;
 
-import static java.lang.Math.PI;
+import java.util.Scanner;
 
 public class Circle {
     private double radius;
@@ -28,9 +28,13 @@ public class Circle {
     public double getArea(double radius){
         return Math.PI*Math.pow(radius, 2);
     }
-    public void inputData(double radius, String color){
-        this.radius = radius;
-        this.color = color;
+    public void inputData(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập bán kính: ");
+        radius = scanner.nextDouble();
+        scanner.nextLine();
+        System.out.print("Nhập màu sắc: ");
+        color = scanner.nextLine();
     }
     public void displayData(){
         System.out.println("Hình tròn có bán kính là: " + radius + " chu vi :" + getArea(this.radius) + " dien tich : "+getPerimeter(this.radius));

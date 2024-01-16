@@ -1,11 +1,11 @@
 package ra.bt3;
 
 public class StopWatch {
-    private  long startTime;
-    private  long endTime ;
+    private long startTime;
+    private long endTime;
 
     public StopWatch() {
-        startTime = System.currentTimeMillis();
+        this.startTime =System.currentTimeMillis();
     }
 
     public StopWatch(long startTime, long endTime) {
@@ -14,7 +14,6 @@ public class StopWatch {
     }
 
     public long getStartTime() {
-
         return startTime;
     }
 
@@ -29,11 +28,14 @@ public class StopWatch {
     public void setEndTime(long endTime) {
         this.endTime = endTime;
     }
-    public long getElapsedTime(){
-        return endTime -startTime;
+    public void start() {
+        this.startTime = System.currentTimeMillis();
     }
-    public  void stop(){
-        endTime = System.currentTimeMillis();
+    public void stop() {
+        this.endTime = System.currentTimeMillis();
+    }
+    public long getElapsedTime() {
+        return endTime - startTime;
     }
 
 }

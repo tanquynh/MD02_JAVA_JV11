@@ -41,6 +41,7 @@ public class Main {
                         System.out.println("---------------------------------");
                     }
                     break;
+
                 case 2:
                     Student newStudent = new Student();
                     newStudent.inputData();
@@ -137,9 +138,5 @@ public class Main {
             }
 
         }while (choie !=5);
-
-
-
     }
-
 }
