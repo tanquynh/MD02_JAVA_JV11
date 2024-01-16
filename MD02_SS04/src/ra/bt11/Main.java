@@ -127,10 +127,6 @@ public class Main {
                         System.out.println("Sinh vien khong ton tai");
                     }
                     break;
-
-
-
-
                 case 5:
                     System.out.println("Chương trình kết thúc.");
                     break;

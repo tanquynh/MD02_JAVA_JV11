@@ -4,31 +4,36 @@ import static java.lang.Math.PI;
 
 public class Circle {
     private double radius;
-
-    public Circle() {
-    }
-
-    public Circle(double radius) {
+    public String color;
+    public Circle() {}
+    public Circle(double radius, String color){
         this.radius = radius;
-     }
-
+        this.color = color;
+    }
     public double getRadius() {
         return radius;
     }
-
-    public void setRadius(double radius) {
+    public void setRadius(double radius){
         this.radius = radius;
     }
-
-
-    public double getArea() {
-        return this.radius*this.radius*PI;
+    public String getColor() {
+        return color;
     }
-    public double getPerimeter() {
-        return 2*PI*this.radius;
+    public void setColor(String color){
+        this.color = color;
     }
-
-    public void displayData() {
-        System.out.println("Ban kinh : "+getRadius() + " Co Chu vi :" + getPerimeter() + " Dien tich :" + getArea());
+    public double getPerimeter(double radius){
+        return Math.PI*2*radius;
+    }
+    public double getArea(double radius){
+        return Math.PI*Math.pow(radius, 2);
+    }
+    public void inputData(double radius, String color){
+        this.radius = radius;
+        this.color = color;
+    }
+    public void displayData(){
+        System.out.println("Hình tròn có bán kính là: " + radius + " chu vi :" + getArea(this.radius) + " dien tich : "+getPerimeter(this.radius));
+        System.out.println("Hình tròn có màu là: " +  color);
     }
 }

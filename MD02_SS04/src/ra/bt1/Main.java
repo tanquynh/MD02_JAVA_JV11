@@ -2,10 +2,10 @@ package ra.bt1;
 
 public class Main {
     public static void main(String[] args) {
-        Circle circle1 = new Circle(12);
-        Circle circle2 = new Circle(10);
-       circle1.displayData();
-       circle2.displayData();
+        Circle c1 = new Circle(12, "Red");
+        Circle c2 = new Circle(20, "Green");
+        c1.displayData();
+        c2.displayData();
     }
 
 }
