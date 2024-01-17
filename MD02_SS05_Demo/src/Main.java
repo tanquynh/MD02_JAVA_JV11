@@ -46,9 +46,6 @@ public class Main {
         } else {
             System.out.println("Chuoi khong hop le");
         }
-
-
-
     }
 
     private static boolean ischeckEmail(String email) {
