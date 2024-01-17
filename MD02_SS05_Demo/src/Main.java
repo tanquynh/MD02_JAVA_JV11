@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,19 +38,15 @@ public class Main {
 //        // Noi chuoi tai vi tri index
 //        stringBuilder.append("reikkei academy",7,14);
 //        System.out.println(stringBuilder1);
-
-        String email = "rikeiacademy@rikkeisoft.com";
-        String email2 = "@gmail.com";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap email can ktra :");
+        String email = sc.nextLine();
         if(ischeckEmail(email)) {
             System.out.println("Chuoi hop le");
         } else {
             System.out.println("Chuoi khong hop le");
         }
-        if(ischeckEmail(email2)) {
-            System.out.println("Chuoi hop le");
-        } else {
-            System.out.println("Chuoi khong hop le");
-        }
+
 
 
     }
