@@ -1,15 +1,23 @@
 package BTtongHop.service;
 
+<<<<<<< HEAD
 import BTtongHop.config.InputMethods;
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 import BTtongHop.constant.Contant;
 import BTtongHop.model.Teacher;
 import BTtongHop.repository.FileRepo;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
 import static BTtongHop.config.InputMethods.scanner;
 
+=======
+import java.util.List;
+
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 public class TeacherService implements IService<Teacher> {
     FileRepo<Teacher, Integer> teacherFileRepo;
     public  TeacherService() {
@@ -39,6 +47,7 @@ public class TeacherService implements IService<Teacher> {
     public int autoInc() {
         return this.teacherFileRepo.autoInc();
     }
+<<<<<<< HEAD
 
     public void addTeacher() {
 
@@ -164,4 +173,6 @@ public class TeacherService implements IService<Teacher> {
             }
         }
     }
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 }

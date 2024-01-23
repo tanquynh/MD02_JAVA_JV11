@@ -8,6 +8,9 @@ public interface IService<T> {
     T findById(int id);
     int findIndexById(int id);
     int autoInc();
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 }

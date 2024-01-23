@@ -1,10 +1,14 @@
 package BTtongHop.service;
 
+<<<<<<< HEAD
 import BTtongHop.config.InputMethods;
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 import BTtongHop.constant.Contant;
 import BTtongHop.model.Student;
 import BTtongHop.repository.FileRepo;
 
+<<<<<<< HEAD
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -13,6 +17,11 @@ import java.util.Scanner;
 
 import static BTtongHop.config.InputMethods.scanner;
 
+=======
+import java.util.List;
+import java.util.Scanner;
+
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 public class StudentService implements IService<Student>{
     FileRepo<Student, Integer> studentFileRepo;
     public StudentService() {
@@ -47,6 +56,7 @@ public class StudentService implements IService<Student>{
     }
 
 
+<<<<<<< HEAD
     public void searchStudentByName() {
         System.out.println("Nhập tên học sinh muốn tìm kiếm");
         String searchName = InputMethods.getString();
@@ -195,4 +205,6 @@ public class StudentService implements IService<Student>{
         }
         System.out.println("Tao học sinh thành công");
     }
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 }

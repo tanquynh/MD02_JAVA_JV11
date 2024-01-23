@@ -1,15 +1,23 @@
 package BTtongHop.service;
 
+<<<<<<< HEAD
 import BTtongHop.config.InputMethods;
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 import BTtongHop.constant.Contant;
 import BTtongHop.model.Subject;
 import BTtongHop.repository.FileRepo;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
 import static BTtongHop.config.InputMethods.scanner;
 
+=======
+import java.util.List;
+
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 public class SubjectService implements IService<Subject>{
     FileRepo<Subject, Integer> subjectFileRepo;
     public SubjectService() {
@@ -39,6 +47,7 @@ public class SubjectService implements IService<Subject>{
     public int autoInc() {
         return this.subjectFileRepo.autoInc();
     }
+<<<<<<< HEAD
 
     public void searchSubjectByName() {
         System.out.println("Nhập tên môn học muốn tìm kiếm");
@@ -149,4 +158,6 @@ public class SubjectService implements IService<Subject>{
         }
         System.out.println("Tao môn học thành công");
     }
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 }

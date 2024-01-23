@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b2aa7d24-483d-4cc1-8fb6-23f2ca99ac75" name="Changes" comment="" />
+=======
+    <list default="true" id="b2aa7d24-483d-4cc1-8fb6-23f2ca99ac75" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Project_NC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_NC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_NC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_NC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_NC/src/ra/service/SingerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_NC/src/ra/service/SingerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_NC/src/ra/service/SongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_NC/src/ra/service/SongService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_part_1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_part_1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_part_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_part_1/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +44,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -53,6 +65,28 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.SchoolManagenment.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/MD02_JAVA/Project_NC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/MD02_JAVA/MD03_SS09/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="BTtongHop.run" />
@@ -90,8 +124,11 @@
       <workItem from="1705898481828" duration="11962000" />
       <workItem from="1705927820710" duration="2663000" />
       <workItem from="1705934602952" duration="10228000" />
+<<<<<<< HEAD
       <workItem from="1705971051144" duration="5983000" />
       <workItem from="1705983387462" duration="696000" />
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
     </task>
     <servers />
   </component>

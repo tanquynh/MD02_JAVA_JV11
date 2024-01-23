@@ -1,10 +1,16 @@
 package BTtongHop.service;
 
+<<<<<<< HEAD
 import BTtongHop.config.InputMethods;
 import BTtongHop.model.Classroom;
 import BTtongHop.repository.FileRepo;
 
 import java.util.ArrayList;
+=======
+import BTtongHop.model.Classroom;
+import BTtongHop.repository.FileRepo;
+
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 import java.util.List;
 
 public class ClassroomService implements IService<Classroom>{
@@ -33,6 +39,7 @@ public class ClassroomService implements IService<Classroom>{
     public int autoInc() {
         return this.classesFileRepo.autoInc();
     }
+<<<<<<< HEAD
     public void addClassroom() {
     }
     public void displayClassroomAll() {
@@ -94,4 +101,6 @@ public class ClassroomService implements IService<Classroom>{
     }
 
 
+=======
+>>>>>>> dcdd86b34244499964306f812461b0b258747207
 }
