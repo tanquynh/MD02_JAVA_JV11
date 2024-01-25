@@ -16,16 +16,12 @@ public class Main {
         System.out.println(integerList);
         // Dung hashset sap xep luon
         HashSet<Integer> hashSetListNumber = new HashSet<>();
-        for (Integer i : integerList) {
-            hashSetListNumber.add(i);
-        }
+        hashSetListNumber.addAll(integerList);
         System.out.println("HashSet :" +hashSetListNumber);
         //Dung contains trong ja
        List<Integer> listNumber = removeDuplicates(integerList);
         System.out.println(listNumber);
     }
-
-
 
     private static List<Integer> removeDuplicates(List<Integer> integerList) {
         List<Integer> disNumber = new ArrayList<>();

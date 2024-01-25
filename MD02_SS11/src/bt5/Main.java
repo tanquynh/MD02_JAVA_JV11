@@ -17,7 +17,6 @@ public class Main {
                 break;
             }
             stringList.add(s);
-
         }
         System.out.println(list);
         System.out.println("Phan tu co length nho nhat :" + stringList);

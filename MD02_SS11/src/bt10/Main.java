@@ -2,6 +2,7 @@ package bt10;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,10 +13,13 @@ public class Main {
         integerList.add(5);
         integerList.add(1);
         integerList.add(5);
-        int sum =0;
-        for (Integer i : integerList) {
-            sum = sum + i;
-        }
+        AtomicInteger sum = new AtomicInteger();
+//        for (Integer i : integerList) {
+//            sum = sum + i;
+//        }
+        integerList.forEach((number) -> {
+            sum.addAndGet(number);
+        });
         System.out.println("Tong : " + sum);
     }
 }
