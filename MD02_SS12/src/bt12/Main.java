@@ -32,8 +32,6 @@ public class Main {
             }
             charStack.pop();
         }
-
-        // Bước 6: Kết thúc chương trình
         return isDecreasing;
     }
 }

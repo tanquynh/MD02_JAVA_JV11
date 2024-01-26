@@ -16,7 +16,7 @@ public class Main {
 
         Stack<Integer> stack = new Stack<>();
 
-        // Bước 2: Duyệt qua từng phần tử trong mảng
+        // Bước 2: Duyệtphần tử mảng
         for (int element : array) {
             // Bước 2a: Nếu stack rỗng hoặc phần tử đang xét lớn hơn phần tử trên đỉnh của stack, đưa phần tử đó vào stack
             if (stack.isEmpty() || element > stack.peek()) {
