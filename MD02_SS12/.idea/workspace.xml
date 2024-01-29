@@ -54,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bt9.Calculator" />
       <module name="MD02_SS12" />
@@ -105,7 +105,7 @@
       <updated>1706154100898</updated>
       <workItem from="1706154101475" duration="13642000" />
       <workItem from="1706186907532" duration="6840000" />
-      <workItem from="1706230504813" duration="762000" />
+      <workItem from="1706230504813" duration="4822000" />
     </task>
     <servers />
   </component>
