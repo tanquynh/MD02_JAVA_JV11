@@ -11,19 +11,26 @@ public class Main {
         TreeMap<Integer, String> treeMap = new TreeMap<>();
         String st = sc.nextLine();
         StringBuilder current = new StringBuilder();
-
-        for (int i = 0; i < st.length() - 1; i++) {
-            if (st.charAt(i) > st.charAt(i + 1)) {
-                current.append(st.charAt(i));
+        current.append(st.charAt(0));
+        for (int i = 0; i < st.length()-1 ; i++) {
+            if (st.charAt(i+1)>st.charAt(i)) {
+                current.append(st.charAt(i+1));
+                if(i + 1 ==st.length()-1) {
+                    treeMap.put(current.length(), current.toString());
+                }
             } else {
                 treeMap.put(current.length(), current.toString());
-                current = new StringBuilder(String.valueOf(st.charAt(i)));
+                current = new StringBuilder(String.valueOf(st.charAt(i+1)));
             }
         }
 
 //        // Xử lý trường hợp cuối cùng của chuỗi
-//        current.append(st.charAt(st.length() - 1));
-//        treeMap.put(current.length(), current.toString());
+//        if(st.charAt(st.length()) > treeMap.charAt(current.length())) {
+//            current.append(st.charAt(st.length() - 1));
+//            treeMap.put(current.length(), current.toString());
+//        }
+
+
 
         System.out.println("Chuoi : " + treeMap.get(treeMap.lastKey()) + " Chieu dai : " + treeMap.lastKey());
     }
