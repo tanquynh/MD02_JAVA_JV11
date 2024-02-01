@@ -23,15 +23,6 @@ public class Main {
                 current = new StringBuilder(String.valueOf(st.charAt(i+1)));
             }
         }
-
-//        // Xử lý trường hợp cuối cùng của chuỗi
-//        if(st.charAt(st.length()) > treeMap.charAt(current.length())) {
-//            current.append(st.charAt(st.length() - 1));
-//            treeMap.put(current.length(), current.toString());
-//        }
-
-
-
         System.out.println("Chuoi : " + treeMap.get(treeMap.lastKey()) + " Chieu dai : " + treeMap.lastKey());
     }
 }
